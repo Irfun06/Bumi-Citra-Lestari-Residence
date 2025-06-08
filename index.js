@@ -12,16 +12,16 @@ const PORT = process.env.PORT || 3000;
 
 // Konfigurasi Cloudinary
 cloudinary.config({
-  cloud_name: '/* GANTI DENGAN CLOUDINARY CLOUD NAME */',
-  api_key: '/* GANTI DENGAN CLOUDINARY API KEY */',
-  api_secret: '/* GANTI DENGAN CLOUDINARY API SECRET */',
+  cloud_name: 'ddpvqtfwq',
+  api_key: '924731857934873',
+  api_secret: 'QgaVE2_HZXh6twinEPPQIc62LEc',
 });
 
 // Service Account untuk Firebase JWT
 const serviceAccount = {
   private_key: (process.env.FIREBASE_PRIVATE_KEY || '').replace(/\\n/g, '\n'),
-  client_email: '/* GANTI DENGAN FIREBASE CLIENT EMAIL */',
-  project_id: '/* GANTI DENGAN FIREBASE PROJECT ID */',
+  client_email: 'firebase-adminsdk-fbsvc@ai-bcl-residence.iam.gserviceaccount.com',
+  project_id: 'ai-bcl-residence',
 };
 
 // Fungsi untuk ambil access token dari Firebase
